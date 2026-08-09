@@ -1,0 +1,106 @@
+code,meaning,description
+P101,If medical advice is needed have product container or label at hand,General
+P102,Keep out of reach of children,General
+P103,Read label before use,General
+P210,Keep away from heat/sparks/open flames/hot surfaces - No smoking,Preventive
+P211,Do not spray on an open flame or other ignition source,Preventive
+P220,Keep/Store away from clothing/combustible materials,Preventive
+P221,Take any precaution to avoid mixing with combustibles,Preventive
+P222,Do not allow contact with air,Preventive
+P223,Do not allow contact with water,Preventive
+P230,Keep wetted with ...,Preventive
+P231,Handle under inert gas,Preventive
+P232,Protect from moisture,Preventive
+P233,Keep container tightly closed,Preventive
+P234,Keep only in original packaging,Preventive
+P235,Keep cool,Preventive
+P240,Ground/bond container and receiving equipment,Preventive
+P241,Use explosion-proof electrical/ventilating/lighting/... equipment,Preventive
+P242,Use only non-sparking tools,Preventive
+P243,Take precautionary measures against static discharge,Preventive
+P244,Keep reduction valves free from grease and oil,Preventive
+P250,Do not subject to grinding/shock/... friction,Preventive
+P251,Pressurized container - Do not pierce or burn even after use,Preventive
+P260,Do not breathe dust/fume/gas/mist/vapours/spray,Preventive
+P261,Avoid breathing dust/fume/gas/mist/vapours/spray,Preventive
+P262,Do not get in eyes on skin or on clothing,Preventive
+P263,Avoid contact during pregnancy/while nursing,Preventive
+P264,Wash thoroughly after handling,Preventive
+P270,Do not eat drink or smoke when using this product,Preventive
+P271,Use only outdoors or in a well-ventilated area,Preventive
+P272,Contaminated work clothing should not be allowed out of the workplace,Preventive
+P273,Avoid release to the environment,Preventive
+P280,Wear protective gloves/protective clothing/eye protection/face protection,Preventive
+P281,Use personal protective equipment as required,Preventive
+P282,Wear cold insulating gloves/face shield/eye protection,Preventive
+P283,Wear fire/flame resistant/retardant clothing,Preventive
+P284,Wear respiratory protection,Preventive
+P285,In case of inadequate ventilation wear respiratory protection,Preventive
+P301,IF SWALLOWED,Response
+P302,IF ON SKIN,Response
+P303,IF ON SKIN (or hair),Response
+P304,IF INHALED,Response
+P305,IF IN EYES,Response
+P306,IF ON CLOTHING,Response
+P307,IF exposed,Response
+P308,IF exposed or concerned,Response
+P309,IF exposed or if you feel unwell,Response
+P310,Immediately call a POISON CENTER/doctor/...,Response
+P311,Call a POISON CENTER/doctor/...,Response
+P312,Call a POISON CENTER/doctor/... if you feel unwell,Response
+P313,Get medical advice/attention,Response
+P314,Get medical advice/attention if you feel unwell,Response
+P315,Get immediate medical advice/attention,Response
+P320,Specific treatment is urgent (see ... on this label),Response
+P321,Specific treatment (see ... on this label),Response
+P322,Specific measures (see ... on this label),Response
+P330,Rinse mouth,Response
+P331,Do NOT induce vomiting,Response
+P332,If skin irritation occurs,Response
+P333,If skin irritation or rash occurs,Response
+P334,Immerse in cool water/wrap with wet bandages,Response
+P335,Brush off loose particles from skin,Response
+P336,Thaw with lukewarm water. Do not rub affected area.,Response
+P337,If eye irritation persists,Response
+P338,Remove contact lenses if present and easy to do - continue rinsing,Response
+P340,Remove person to fresh air and keep comfortable for breathing,Response
+P341,If breathing is difficult remove person to fresh air and keep comfortable,Response
+P342,If experiencing respiratory symptoms,Response
+P343,If on clothing,Response
+P350,Gently wash with plenty of soap and water,Response
+P351,Rinse cautiously with water for several minutes,Response
+P352,Wash with plenty of soap and water,Response
+P353,Rinse skin with water/shower,Response
+P354,Immediately rinse with water for several minutes,Response
+P360,Rinse immediately contaminated clothing and skin with plenty of water before removing clothes,Response
+P361,Take off immediately all contaminated clothing,Response
+P362,Take off contaminated clothing,Response
+P363,Wash contaminated clothing before reuse,Response
+P370,In case of fire,Response
+P371,In case of major fire and large quantities,Response
+P372,Explosion risk in case of fire,Response
+P373,DO NOT fight fire when fire reaches explosives,Response
+P374,Fight fire with normal precautions from a reasonable distance,Response
+P375,Fight fire remotely due to risk of explosion,Response
+P376,Stop leak if safe to do so,Response
+P377,Leaking gas fire: Do not extinguish unless leak can be stopped safely,Response
+P378,Use ... for extinction,Response
+P380,Evacuate area,Response
+P381,In case of leakage eliminate all ignition sources,Response
+P390,Absorb spillage to prevent material damage,Response
+P391,Collect spillage,Response
+P401,Store in accordance with ...,Storage
+P402,Store in a dry place,Storage
+P403,Store in a well-ventilated place,Storage
+P404,Store in a closed container,Storage
+P405,Store locked up,Storage
+P406,Store in a corrosive resistant/... container with a resistant inner liner,Storage
+P407,Maintain air gap between stacks/pallets,Storage
+P410,Protect from sunlight,Storage
+P411,Store at temperatures not exceeding ... °C/... °F,Storage
+P412,Do not expose to temperatures exceeding 50 °C/ 122 °F,Storage
+P413,Store bulk masses greater than ... kg/... lbs at temperatures not exceeding ... °C/... °F,Storage
+P420,Store separately,Storage
+P422,Store contents under ...,Storage
+P501,Dispose of contents/container to ...,Disposal
+P502,Refer to manufacturer/supplier for information on recovery/recycling,Disposal
