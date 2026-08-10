@@ -2,25 +2,25 @@ code,meaning,description
 H200,Unstable explosive,Explosive
 H201,Explosive; mass explosion hazard,Explosive
 H202,Explosive; severe fragmentation hazard,Explosive
-H203,Explosive; fire, blast or projection hazard,Explosive
+H203,Explosive; fire blast or projection hazard,Explosive
 H204,Fire or projection hazard,Explosive
 H205,May mass explode in fire,Explosive
-H206,Fire, blast or projection hazard; increased risk of explosion if desensitizing agent is reduced,Explosive
+H206,Fire blast or projection hazard; increased risk of explosion if desensitizing agent is reduced,Explosive
 H207,Fire or projection hazard; increased risk of explosion if desensitizing agent is reduced,Explosive
 H208,Fire hazard; increased risk of explosion if desensitizing agent is reduced,Explosive
-H220,Extremely flammable gas,Flamable gas
-H221,Flammable gas,Flamable gas
-H222,Extremely flammable aerosol,Flamable aerosol
-H223,Flammable aerosol,Flamable aerosol
-H224,Extremely flammable liquid and vapour,Flamable liquid
-H225,Highly flammable liquid and vapour,Flamable liquid
-H226,Flammable liquid and vapour,Flamable liquid
-H227,Combustible liquid,Flamable liquid
-H228,Flammable solid,Flamable solid
+H220,Extremely flammable gas,Flammable gas
+H221,Flammable gas,Flammable gas
+H222,Extremely flammable aerosol,Flammable aerosol
+H223,Flammable aerosol,Flammable aerosol
+H224,Extremely flammable liquid and vapour,Flammable liquid
+H225,Highly flammable liquid and vapour,Flammable liquid
+H226,Flammable liquid and vapour,Flammable liquid
+H227,Combustible liquid,Flammable liquid
+H228,Flammable solid,Flammable solid
 H229,Pressurised container: may burst if heated,Pressurised container
-H230,May react explosively even in the absence of air,Flamable gas
-H231,May react explosively even in the absence of air at elevated pressure and/or temperature,Flamable gas
-H232,May ignite spontaneously if exposed to air,Flamable gas
+H230,May react explosively even in the absence of air,Flammable gas
+H231,May react explosively even in the absence of air at elevated pressure and/or temperature,Flammable gas
+H232,May ignite spontaneously if exposed to air,Flammable gas
 H240,Heating may cause an explosion,Self-reactive
 H241,Heating may cause a fire or explosion,Self-reactive
 H242,Heating may cause a fire,Self-reactive
@@ -34,9 +34,6 @@ H271,May cause fire or explosion; strong oxidizer,Oxidizer
 H272,May intensify fire; oxidizer,Oxidizer
 H280,Contains gas under pressure; may explode if heated,Pressurised gas
 H281,Contains refrigerated gas; may cause cryogenic burns or injury,Pressurised gas
-H282,Extremely flammable chemical under pressure; may explode if heated,Pressurised gas
-H283,Flammable chemical under pressure; may explode if heated,Pressurised gas
-H284,Chemical under pressure; may explode if heated,Pressurised gas
 H290,May be corrosive to metals,Corrosive
 H300,Fatal if swallowed,Acute toxicity
 H301,Toxic if swallowed,Acute toxicity
@@ -82,4 +79,3 @@ H411,Toxic to aquatic life with long lasting effects,Aquatic toxicity
 H412,Harmful to aquatic life with long lasting effects,Aquatic toxicity
 H413,May cause long lasting harmful effects to aquatic life,Aquatic toxicity
 H420,Harms public health and the environment by destroying ozone in the upper atmosphere,Ozone depletion
-H441,Very toxic to terrestrial invertebrates,Aquatic toxicity
