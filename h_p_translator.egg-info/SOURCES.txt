@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+h_p_translator/__init__.py
+h_p_translator.egg-info/PKG-INFO
+h_p_translator.egg-info/SOURCES.txt
+h_p_translator.egg-info/dependency_links.txt
+h_p_translator.egg-info/requires.txt
+h_p_translator.egg-info/top_level.txt
+h_p_translator/data/h_codes.csv
+h_p_translator/data/p_codes.csv

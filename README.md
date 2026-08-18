@@ -1,8 +1,8 @@
-# hphrases – H and P Code Translator
+# h-p-translator
 
-A Python library to translate H and P codes (from Safety Data Sheets) to human-readable text.
+Translate H and P codes to human-readable text.
 
 ## Installation
 
 ```bash
-pip install hphrases
+pip install h-p-translator
