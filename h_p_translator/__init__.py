@@ -786,7 +786,6 @@ def translate_h(codes_string, language="en"):
     if not codes_string or codes_string == "nan":
         return ""
     
-    # Select the right dictionary
     lang_map = {
         "en": H_CODES,
         "ar": H_CODES_AR,
@@ -794,22 +793,35 @@ def translate_h(codes_string, language="en"):
     }
     codes_dict = lang_map.get(language.lower(), H_CODES)
     
-    codes = [c.strip() for c in codes_string.split(",")]
+    codes = [c.strip() for c in codes_string.split(",") if c.strip()]
+    
     translated = []
-    for c in codes:
-        if c in codes_dict:
-            translated.append(codes_dict[c])
+    for code in codes:
+        # Check for combined codes (e.g., "H301+H311")
+        if "+" in code:
+            parts = code.split("+")
+            combined_parts = []
+            for p in parts:
+                p = p.strip()
+                if p in codes_dict:
+                    combined_parts.append(codes_dict[p])
+                else:
+                    combined_parts.append(p)
+            translated.append(" + ".join(combined_parts))
+        elif code in codes_dict:
+            translated.append(codes_dict[code])
         else:
-            translated.append(c)  # Fallback: keep the code
+            translated.append(code)
     
     return ". ".join(translated)
+
 
 def translate_p(codes_string, language="en"):
     """
     Convert a string of P codes to human-readable text.
     
     Parameters:
-    - codes_string: string of P-codes (e.g., "P264,P280")
+    - codes_string: string of P-codes (e.g., "P264,P280,P301+P310")
     - language: "en" (English), "ar" (Arabic), or "fr" (French)
     
     Returns:
@@ -825,13 +837,31 @@ def translate_p(codes_string, language="en"):
     }
     codes_dict = lang_map.get(language.lower(), P_CODES)
     
-    codes = [c.strip() for c in codes_string.split(",")]
+    # Split by comma, but keep combined codes like "P301+P310" intact
+    codes = []
+    for part in codes_string.split(","):
+        part = part.strip()
+        if part:
+            codes.append(part)
+    
     translated = []
-    for c in codes:
-        if c in codes_dict:
-            translated.append(codes_dict[c])
+    for code in codes:
+        # Check if it's a combined code like "P301+P310"
+        if "+" in code:
+            parts = code.split("+")
+            combined_parts = []
+            for p in parts:
+                p = p.strip()
+                if p in codes_dict:
+                    combined_parts.append(codes_dict[p])
+                else:
+                    combined_parts.append(p)
+            translated.append(" + ".join(combined_parts))
+        elif code in codes_dict:
+            translated.append(codes_dict[code])
         else:
-            translated.append(c)  # Fallback: keep the code
+            # Fallback: keep the code
+            translated.append(code)
     
     return ". ".join(translated)
 
